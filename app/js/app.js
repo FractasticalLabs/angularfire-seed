@@ -1,14 +1,14 @@
 'use strict';
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', [
-    'myApp.config',
-    'myApp.controllers',
-    'myApp.decorators',
-    'myApp.directives',
-    'myApp.filters',
-    'myApp.routes',
-    'myApp.services'
+angular.module('dazzle', [
+    'dazzle.config',
+    'dazzle.controllers',
+    'dazzle.decorators',
+    'dazzle.directives',
+    'dazzle.filters',
+    'dazzle.routes',
+    'dazzle.services'
   ])
 
   .run(['simpleLogin', function(simpleLogin) {

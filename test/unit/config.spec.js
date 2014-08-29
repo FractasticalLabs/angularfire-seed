@@ -3,7 +3,7 @@
 /* verify config settings are present */
 
 describe('service', function() {
-   beforeEach(module('myApp.config'));
+   beforeEach(module('dazzle.config'));
 
    it('should have a valid FBURL', inject(function(FBURL) {
       expect(FBURL).toMatch(/^https:\/\/[a-zA-Z_-]+\.firebaseio\.com$/i);
